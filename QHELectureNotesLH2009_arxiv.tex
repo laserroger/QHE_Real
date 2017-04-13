@@ -943,41 +943,23 @@ $$N_B=\frac{\Amath}{\Delta X\Delta Y} =  \frac{\Amath}{2\pi l_B^2}= n_B \times \
 \beq\label{fluxdens}
 n_B= \frac{1}{2\pi l_B^2} = \frac{B}{h/e},
 \eeq 
-which is nothing other than the magnetic field measured in units of the flux quantum $h/e$. Therefore, {\sl the number of quantum states
-in a LL equals the number of flux quanta threading the sample surface $\Amath$, and each LL is macroscopically degenerate}. 
-We will show in a more quantitative manner than in the above argument based on the Heisenberg inequality that the number of
-states per LL is indeed given by $N_B$ when discussing, in the next section, 
-the electronic wave functions in the symmetric and the Landau gauges.
+这其实就是在磁通量子$h/e$单位下的磁场大小。因此，{\sl 一个LL中的量子态数等于样品表面$\Amath$上通过的磁通量子数，且每个LL都宏观简并}。我们会在下一节讨论对称和Landau规范下的电子波函数的时候用更定量的角度通过Heisenberg不等式说明每个LL的态数确实就是$N_B$。
 
-Similarly to the guiding-centre operator, we may introduce the {\sl cyclotron variable} $\etab=(\eta_x,\eta_y)$, which determines 
-the cyclotron motion and which fully describes the dynamic properties. The cyclotron variable is perpendicular to the electron's
-velocity and may be expressed in terms of the gauge-invariant momentum $\Pib$,
+与导引中心算符类似，我们可以引入{\sl 回转变量} $\etab=(\eta_x,\eta_y)$，其决定了回转运动与完整的动力学性质。回转变量与电子的运动垂直，且可以用规范不变动量$\Pib$描述
 \beq\label{CyclVar}
 \eta_x= \frac{\Pi_y}{eB} \qquad {\rm \text{以及}} \qquad \eta_y = - \frac{\Pi_x}{eB}\ ,
 \eeq
-as one sees from Eq. (\ref{constM}).
-The position of the electron is thus decomposed into its guiding centre and its cyclotron variable, $\br=\bR + \etab$.
-Also the components of the cyclotron variable do not commute, and one finds with the help of Eq. (\ref{ComMom})
+可从式(\ref{constM})有所了解。电子的位置从而可以分解为导引中心和回转变量两部分，$\br=\bR + \etab$。此外，回转变量的分量也不对易，利用(\ref{ComMom})可以得到
 \beq\label{ComCV}
 [\eta_x,\eta_y] = \frac{[\Pi_x,\Pi_y]}{(eB)^2} = -il_B^2
 =-[X,Y].
 \eeq
 
-Until now, we have only discussed a single particle and its possible quantum states. Consider now $N$ 
-independent quantum-mechanical electrons at zero-temperature. In
-the absence of a magnetic field, electrons in a metal, due to their fermionic nature and the Pauli principle which prohibits double
-occupancy of a single quantum state, fill all quantum states up to the Fermi energy, which depends thus on the number of electrons
-itself. The situation is similar in the presence of a magnetic field: the electrons preferentially occupy the lowest LLs, i.e. those
-of lowest energy. But once a LL is filled, the remaining electrons are forced to populate higher LLs. In order to describe the
-LL filling it is therefore useful to introduce the dimensionless ratio between the number of electrons $N_{el}=n_{el}\times \Amath$ 
-and that of the flux quanta,
+现在为止我们实际上只讨论了单粒子行为和其可能的量子态。考虑如果我们在零温有$N$个无关的量子的电子。如果没有磁场的话，金属中的电子就会填充到费密能量下的所有量子态，因为费米子的Pauli不相容原理使得电子无法同时占据一个量子态。费米能因此只和电子数有关。加了磁场之后并没有太大变化：电子更倾向于占据最低能量的Landau能级们。但是一旦一个LL被占据满了，剩下的电子就必须得占据更高的LL。为了描述LL占据，我们介绍{\it 占据因子}：电子数$N_{el}=n_{el}\times \Amath$与磁通量子的比，
 \beq\label{filling}
 \nu = \frac{N_{el}}{N_B}=\frac{n_{el}}{n_B} = \frac{hn_{el}}{eB},
 \eeq
-which is called {\sl filling factor}. Indeed the integer part, $[\nu]$, of the filling factor counts the number of completely
-filled LLs. Notice that one may vary the filling factor either by changing the particle number or by changing the magnetic field. 
-At fixed particle number, lowering the magnetic field corresponds to an increase of the filling factor.
-
+而其整数部分，$[\nu]$则代表完全占据的LLs。注意占据因子会随着粒子数或磁场强度而发生改变。同一粒子数时，更低的磁场则表明更高的占据数。
 
 
 \section[本征态]{Eigenstates\\\bf 本征态}
@@ -989,45 +971,29 @@ At fixed particle number, lowering the magnetic field corresponds to an increase
 \subsection[对称规范下的波函数]{Wave functions in the symmetric gauge\\\bf 对称规范下的波函数}
 \label{WFsym}
 
-The algebraic tools established above may be used calculate the electronic wave functions, which
-are the space representations of the quantum states $|n,m\rangle$, $\phi_{n,m}(x,y)=\langle x,y|n,m\rangle$.\footnote{
-We limit the discussion to the non-relativistic case. The spinor wave functions for relativistic electrons are then easily
-obtained with the help of Eqs. (\ref{QstateR}) and (\ref{QstateN0}).}
-Notice first that one may obtain all quantum state $|n,m\rangle$ from a single state $|n=0,m=0\rangle$, with the help
-of 
+我们上面建立了一套用来处理电子波函数的合理的代数工具。如果要了解某个具体模式$|n,m\rangle$的空间分布，我们有$\phi_{n,m}(x,y)=\langle x,y|n,m\rangle$\footnote{我们仅就非相对论情况考虑。利用式(\ref{QstateR})和(\ref{QstateN0})就可以方便的得到相对论性电子的旋量波函数。}。首先注意到任何量子态$|n,m\rangle$都可以从$|n=0,m=0\rangle$这个态利用
 \beq\label{constrNM}
 |n,m\rangle = \frac{\left(a^{\dagger}\right)^n}{\sqrt{n!}} \frac{\left(b^{\dagger}\right)^m}{\sqrt{m!}}|n=0,m=0\rangle,
 \eeq
-which is a generalisation of Eq. (\ref{constrN}). Naturally, this equation translates into a differential equation for the
-wave functions $\phi_{n,m}(x,y)$.
+得到，其就是(\ref{constrN})式的推广而已。这个方程很容易改写成对于波函数$\phi_{n,m}(x,y)$的微分方程。
 
-A state in the lowest LL ($n=0$) is characterised by the condition (\ref{0lad})
+对于处于最低Landau能级($n=0$)的态可以用(\ref{0lad})来处理
 \beq\label{eq02}
 a |n=0,m\rangle = 0,
 \eeq
-which needs to be translated into a differential equation. Remember from Eq. (\ref{ladder}) that
-$a = (l_B/\sqrt{2}\hbar)(\Pi_x - i\Pi_y)$ and, by definition, $\Pib= -i\hbar\nabla + e\bA(\br)$ where we have 
-already represented the momentum as a differential operator in position representation, $\bp=-i\hbar\nabla$.
-One then finds 
+我们接下来把它处理成微分方程。利用式(\ref{ladder})：$a = (l_B/\sqrt{2}\hbar)(\Pi_x - i\Pi_y)$，且有定义$\Pib= -i\hbar\nabla + e\bA(\br)$，其中我们自然的把动量算符的空间表述写为梯度$\bp=-i\hbar\nabla$。于是可以看到 
 $$a=-i\sqrt{2}\left[\frac{l_B}{2}\left(\partial_x - i\partial_y\right)+\frac{x-iy}{4l_B}\right],$$
-where $\partial_x$ and $\partial_y$ are the components of the gradient $\nabla=(\partial_x,\partial_y)$,
-and one sees from this expression that it is convenient to introduce {\sl complex coordinates} to describe the 2D plane. We define
-$z=x-iy$, $z^*=x+iy$, $\partial = (\partial_x + i\partial_y)/2$ and $\bar{\partial} = (\partial_x - i\partial_y)/2$.
-The lowest LL condition (\ref{eq02}) then becomes a differential equation,
+其中$\partial_x$和$\partial_y$是梯度的分量$\nabla=(\partial_x,\partial_y)$，且从表达式中可以很方便的引入{\sl 复坐标}来描述2D平面。令$z=x-iy$，$z^*=x+iy$，从而$\partial = (\partial_x + i\partial_y)/2$，$\bar{\partial} = (\partial_x - i\partial_y)/2$。最低的LL的条件(\ref{eq02})可以写为微分方程
 \beq\label{eq03}
 \left(\frac{z}{4 l_B} + l_B\bar{\partial}\right) \phi_{n=0}(z,z^*) = 0,
 \eeq
-which may easily be solved by the complex function
+其可以通过复函数得到
 \beq\label{eq04}
 \phi_{n=0}(z,z^*) = f(z) e^{-|z|^2/4l_B^2},
 \eeq
-where $f(z)$ is an {\sl analytic} function, i.e. $\bar{\partial} f(z) = 0$, and $|z|^2=zz^*$. 
-This means that there is an additional degree of freedom because 
-$f(z)$ may be {\sl any} analytic function. It is not unexpected that this degree of freedom is associated with the second 
-quantum number $m$, as we will now discuss.
+其中，$f(z)$是{\sl 解析}函数，即$\bar{\partial} f(z) = 0$，此外还有$|z|^2=zz^*$。 这说明还有额外的自由度，因为$f(z)$可以是{\it 任意}的解析函数。考虑到我们的第二个量子数$m$这实际上非常显然。
 
-The ladder operators $b$ and $b^{\dagger}$ may be expressed in position representation in a similar manner as $a$, and one
-obtains the space representation of the different ladder operators,
+阶梯算符$b$和$b^{\dagger}$可以像我们前面处理$a$的时候那样用位置算符和动量算符表示出来，从而我们有
 \beqn\label{diffLadd}
 \nn
 a=-i\sqrt{2}\left(\frac{z}{4l_B}+l_B\bar{\partial} \right), \qquad 
@@ -1035,23 +1001,20 @@ a^{\dagger}=i\sqrt{2}\left(\frac{z^*}{4l_B}-l_B\partial \right) \\
 b=-i\sqrt{2}\left(\frac{z^*}{4l_B}+l_B\partial \right),  \qquad 
 b^{\dagger}=i\sqrt{2}\left(\frac{z}{4l_B}-l_B\bar{\partial} \right).
 \eeqn
-In the same manner as for a state in the lowest LL, the condition for the reference state with $m=0$ is $b|n,m=0\rangle = 0$,
-which yields the differential equation
+与前面处理最低LL的情况一样，对于$m=0$的态，$b|n,m=0\rangle = 0$，从而得到微分方程
 $$
 \left(z^*+4l_B^2\partial\right)\phi_{m=0}'(z,z^*)=0
 $$
-with the solution
+其解为
 $$
 \phi_{m=0}'(z,z^*)=g(z^*)e^{-|z|^2/4l_B^2},
 $$
-in terms of an {\sl anti-analytic} function $g(z^*)$ with $\partial g(z^*)=0$. The wave function $\phi_{n=0,m=0}(z,z^*)$ must
-therefore be the Gaussian with a prefactor that is both analytic and anti-analytic, i.e. a constant that is fixed by the 
-normalisation. One finds
+为{\sl 反-解析}函数$g(z^*)$，有$\partial g(z^*)=0$。波函数$\phi_{n=0,m=0}(z,z^*)$因此必须为高斯型的，且其系数同时为解析和反-解析型，从而只能是一个由归一化决定的系数。从而就有
 \beq\label{N0M0}
 \phi_{n=0,m=0}(z,z^*)=\langle z,z^*|n=0,m=0\rangle=\frac{1}{\sqrt{2\pi l_B^2}}
 e^{-|z|^2/4l_B^2},
 \eeq
-and a lowest-LL state with arbitrary $m$ may then be obtained with the help of Eq. (\ref{constrNM}),
+可以通过(\ref{constrNM})得到任意$m$下最低的LL
 \beqn\label{N0M}
 \nn
 \phi_{n=0,m}(z,z^*)&=&\frac{i^m\sqrt{2^m}}{\sqrt{2\pi l_B^2 m!}}\left(
@@ -1059,41 +1022,29 @@ and a lowest-LL state with arbitrary $m$ may then be obtained with the help of E
 &=&\frac{i^m}{\sqrt{2\pi l_B^2 m!}}\left(
 \frac{z}{\sqrt{2}l_B}\right)^m e^{-|z|^2/4l_B^2}.
 \eeqn
-The states within the lowest LL are therefore, apart from the Gaussian, given by the usual polynomial basis states $z^m$
-of analytic functions. In an arbitrary LL, the states may be obtained in a similar manner, but they happen to be more complicated
-because the differential operators (\ref{diffLadd}) no longer act on the Gaussian only but also on the polynomial functions. 
-They may be expressed in terms on Laguerre polynomials.
+在最低LL内的态可以并不是高斯型，因为可以出现解析函数$z^m$这种多项式。对于任意一个LL，其上的态可以通过类似的办法得到，但是要注意微分算符(\ref{diffLadd})不仅仅作用在高斯型上，也要作用在多项式函数上，从而得到Laguerre多项式\footnote{译注：多翻译为拉盖尔多项式}。
 
-To conclude the discussion about the wave functions in the symmetric gauge, we calculate the average value of the guiding-centre
-operator in the state $|n=0,m\rangle$. With the help of Eqs. (\ref{ladderb}) and (\ref{PM:GC}), one may express the components 
-of the guiding-centre operator in terms of the ladder operators $b$ and $b^{\dagger}$,
+作为总结，我们来利用对称规范下的波函数计算导向中心算符在$|n=0,m\rangle$态上的期望值。利用(\ref{ladderb})和(\ref{PM:GC})，我们能够将导向中心算符利用阶梯算符$b$和$b^{\dagger}$表示出来
 \beq\label{GC:ladd}
 X=\frac{l_B}{i\sqrt{2}}(b^{\dagger} - b) \qquad {\rm \text{以及}} \qquad Y=\frac{l_B}{\sqrt{2}}(b^{\dagger} + b),
 \eeq
-and the ladder operators act, in analogy with Eq. (\ref{nlad}), on the states $|n,m\rangle$ as
+而且，类似(\ref{nlad})，阶梯算符作用在$|n,m\rangle$上得到
 $$b^{\dagger}|n,m\rangle = \sqrt{m+1}|n,m+1\rangle \qquad {\rm \text{以及}} \qquad
 b |n,m\rangle = \sqrt{m}|n,m-1\rangle.
 $$
-The average value of the guiding-centre operator is therefore zero in the states $|n,m\rangle$,
+从而导向中心算符的$|n,m\rangle$态平均值是零
 $$\langle \bR\rangle\equiv \langle n=0,m|\bR|n=0,m\rangle=0,$$
-but we have 
+但是我们有
 \beq\label{Rav}
 \langle |\bR|\rangle=\left\langle \sqrt{X^2+Y^2}\right\rangle=l_B\left\langle 
 \sqrt{2b^{\dagger}b+1}\right\rangle=l_B\sqrt{2m+1}.
 \eeq
-This means that the guiding centre is situated, in a quantum state $|n,m\rangle$, somewhere on a circle of radius 
-$l_B\sqrt{2m+1}$ whereas its angle (or phase) is completely undetermined. 
+这说明$|n,m\rangle$态的导向中心是一个半径为$l_B\sqrt{2m+1}$的圆，其角度(或者说相位)完全不确定。
 
-The symmetric gauge is the natural gauge to describe 
-a sample in the form of a disc. Consider the disc to have a radius $R_{max}$
-(and a surface $\Amath=\pi R_{max}^2$). How many quantum states may be accomodated within the circle? The quantum state with 
-maximal $m$ quantum number, which we call $M$, has a radius $l_B\sqrt{2M+1}$, which must naturally coincide with the 
-radius $R_{max}$ of the disc. One therefore obtains $\Amath = \pi l_B^2(2M+1)$, and the number of states within the disc is then,
-in the thermodynamic limit $M\gg 1$,
+对称规范是描述盘子这种形状的样品的非常自然的规范。考虑一个半径为$R_{max}$的样品(其面积为$\Amath=\pi R_{max}^2$)。它有多少量子态呢？考虑$m$量子数最大的量子态，记为$M$，其半径为$l_B\sqrt{2M+1}$，最理想的情况自然是它和$R_{max}$相等。因此可以得到$\Amath = \pi l_B^2(2M+1)$，而在热力学极限$M\gg 1$下，态的数量可以写为
 \beq\label{NBsym}
 M=\frac{\Amath}{2\pi l_B^2}= n_B\times \Amath=N_B, \eeq
-in agreement with the result (\ref{fluxdens}) obtained from the argument based on the Heisenberg uncertainty relation. 
-
+这个与(\ref{fluxdens})中根据Heisenberg不确定性得到的结论是一样的。
 
 
 
@@ -1101,39 +1052,24 @@ in agreement with the result (\ref{fluxdens}) obtained from the argument based o
 \subsection[Landau规范下的波函数]{Wave functions in the Landau gauge\\\bf Landau规范下的波函数}
 \label{WFLandau}
 
-If the sample geometry is rectangular, the Landau gauge (\ref{LG}), $\bA_L(\br)=B(-y,0,0)$, is more appropriate than
-the symmetric gauge to describe the physical system. As already mentioned above, the momentum $p_x=\hbar k$ 
-is a good quantum number due to translational invariance in the $x$-direction. One may therefore use a plane-wave
-ansatz 
+如果样品的几何形状是长方形的，Landau规范(\ref{LG}) $\bA_L(\br)=B(-y,0,0)$则更适合来描述这个系统的对称性。我们前面讲过，由于$x$-的平移对称性，$p_x=\hbar k$是一个好量子数。因此可以假定\footnote{译注：``假定''的原文是ansatz}波函数由平面波的形式
 $$\psi_{n,k}(x,y) = \frac{e^{ikx}}{\sqrt{L}}\chi_{n,k}(y),
 $$
-for the wave functions. In this case, the Hamiltonian (\ref{BHamS}) becomes
+这种情况下，Hamiltonian (\ref{BHamS})变成
 \beq\label{HamLG}
 H_S^B= \frac{(p_x- eBy)^2}{2m} + \frac{p_y^2}{2m} = \frac{p_y^2}{2m} + \frac{1}{2} m\omega_C (y-y_0)^2,
 \eeq
-where we have defined 
+其中我们定义
 \beq\label{GCk}
 y_0 = kl_B^2.
 \eeq
-The Hamiltonian (\ref{HamLG}) is nothing other than the Hamiltonian of a one-dimensional oscillator centred around the 
-position $y_0$, and the eigenstates are 
+Hamiltonian (\ref{HamLG})就是中心位置在$y_0$的一维谐振子而已，其本征态为
 $$\chi_{n,k}(y)=H_n\left(\frac{y-y_0}{l_B}\right)e^{-(y-y_0)^2/4l_B^2},$$
-in terms of Hermite polynomials $H_n(x)$ \cite{CT}. The coordinate $y_0$ plays the role of the guiding centre component $Y$, 
-the component $X$ being smeared over the whole sample
-length $L$, as it is dictated by the Heisenberg uncertainty relation resulting from the commutation relation (\ref{ComGC})
-$[X,Y]=il_B^2$.
+其中$H_n(x)$为Hermite多项式\cite{CT}。坐标$y_0$实际上就等效于导向中心的分量$Y$，而$X$分量则弥散在整个样品的长度$L$，就像Heisenberg不确定原理描述的那样(\ref{ComGC})$[X,Y]=il_B^2$。
 
-Using periodic boundary conditions $k=m\times 2\pi/L$ for the wave vector in the $x$-direction, one may count the number of states
-in a rectangular surface of length $L$ and width $W$ (in the $y$-direction), similarly to the above arguments in the symmetric
-gauge. Consider the sample to range from $y_{min}=0$ to 
-$y_{max}=W$, the first corresponding via the above-mentioned condition (\ref{GCk}) to the wave vector $k=0$ and the latter to
-a wave vector $k_{max}=M \times 2\pi/L$. Two neighbouring quantum states are separated by the distance 
-$\Delta y=\Delta k l_B^2=\Delta m (2\pi/L) l_B^2 = 2\pi l_B^2/L$, 
-and each state therefore occupies a surface $\sigma=\Delta y\times L=2\pi l_B^2$, which agrees with the result (\ref{minsurf}) obtained 
-above with the help of the consideration based on the Heisenberg uncertainty relation. 
-The total number of states is, as in the symmetric gauge and the general argument leading to Eq. (\ref{fluxdens}),
+利用周期边界条件，$x$-方向的波矢$k=m\times 2\pi/L$，就可以得到长$L$宽$W$($y$-方向)矩形样品的态数量，这与我们之前对称规范给出的类似。样品从$y_{min}=0$到$y_{max}=W$，由(\ref{GCk})我们知道这两者极限情况分别对应$k=0$和$k_{max}=M \times 2\pi/L$。相邻量子态的距离为$\Delta y=\Delta k l_B^2=\Delta m (2\pi/L) l_B^2 = 2\pi l_B^2/L$，从而每个态占据面积$\sigma=\Delta y\times L=2\pi l_B^2$，与利用Heisenberg不确定原理得到的结果(\ref{minsurf})完全一样。因此，总量子数和前面对称规范的结论是一致的，而且符合了(\ref{fluxdens})的一般结果，
 $$M=N_B= n_B\times LW = n_B \times \Amath,$$
-i.e. the number of flux quanta threading the (rectangular) surface $\Amath=LW$.
+i.e., 表面$\Amath=LW$上量子磁通的个数
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
