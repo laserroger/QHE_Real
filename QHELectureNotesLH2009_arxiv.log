@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  13 APR 2017 14:06
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  23 FEB 2018 20:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1386,15 +1386,15 @@ File: ExtPotLandscape.eps Graphic file (type eps)
 <ExtPotLandscape.eps> [23] [24]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1217.
+(hyperref)                removing `math shift' on input line 1175.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1217.
+(hyperref)                removing `math shift' on input line 1175.
 
-[25] [26]
+[25]
 File: EdgeStatesIQHE.eps Graphic file (type eps)
- <EdgeStatesIQHE.eps> [27]
+ <EdgeStatesIQHE.eps> [26] [27]
 File: HotSpots2Term.eps Graphic file (type eps)
  <HotSpots2Term.eps> [28]
 File: EchantillonMesure2.eps Graphic file (type eps)
@@ -1412,18 +1412,14 @@ File: ScalingWeiCorr.eps Graphic file (type eps)
  <ScalingWeiCorr.eps> [33]
 File: massConf.eps Graphic file (type eps)
  <massConf.eps>
-[34]
-LaTeX Font Info:    Try loading font information for U+bbm on input line 1719.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+LaTeX Font Info:    Try loading font information for U+bbm on input line 1677.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
-) [35]
+) [34]
 File: relQHE.eps Graphic file (type eps)
 
-<relQHE.eps>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36]
-[37] [38
+<relQHE.eps> [35] [36] [37] [38
 
 ]
 Chapter 4.
@@ -1441,7 +1437,7 @@ File: Anyon.eps Graphic file (type eps)
 [49] [50] [51]
 File: EHQEdeFCs.eps Graphic file (type eps)
  <EHQEdeFCs.eps> [52]
-Overfull \hbox (22.70741pt too wide) in paragraph at lines 2654--2658
+Overfull \hbox (22.70741pt too wide) in paragraph at lines 2612--2616
 []\EU1/lmr/m/n/10 Jain’s generalisation consists of replacing the term $[][]\OT
 1/cmr/m/n/10 (\OML/cmm/m/it/10 z[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 z[]\OT
 1/cmr/m/n/10 )$ \EU1/lmr/m/n/10 by any other Slater determinant $\OML/cmm/m/it/
@@ -1462,20 +1458,20 @@ File: bicoucheMark.eps Graphic file (type eps)
 <bicoucheMark.eps> [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2925.
+(hyperref)                removing `math shift' on input line 2883.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 2925.
+(hyperref)                removing `\nu' on input line 2883.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2925.
+(hyperref)                removing `math shift' on input line 2883.
 
 [59] [60]
 File: antiparalMark.eps Graphic file (type eps)
  <antiparalMark.eps> [61] [62] [63] [64]
-Overfull \hbox (10.45029pt too wide) in paragraph at lines 3211--3215
+Overfull \hbox (10.45029pt too wide) in paragraph at lines 3169--3173
 []\EU1/lmr/m/n/10 In order to account for these inter-component correlations, H
 alperin proposed to add a factor $[][] [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z[
 ] \OMS/cmsy/m/n/10 ^^@
@@ -1496,19 +1492,19 @@ File: KleinTunneling.eps Graphic file (type eps)
 
 ]
 [77] [78] [79])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3670.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3628.
  [80]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3670.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3628.
  (./QHELectureNotesLH2009_arxiv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3670.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3670.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3670.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3628.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3628.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3628.
  ) 
 Here is how much of TeX's memory you used:
- 25734 strings out of 493591
- 477681 string characters out of 6143546
- 533066 words of memory out of 5000000
- 28884 multiletter control sequences out of 15000+600000
+ 25768 strings out of 493591
+ 479700 string characters out of 6143546
+ 532360 words of memory out of 5000000
+ 28918 multiletter control sequences out of 15000+600000
  14022 words of font info for 95 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  54i,11n,72p,10495b,452s stack positions out of 5000i,500n,10000p,200000b,80000s

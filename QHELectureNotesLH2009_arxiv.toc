@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Landau规范下的波函数}{21}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}整数量子Hall效应}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}外静电势下电子的运动}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}半经典处理}{24}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}半经典处理}{23}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}$x$-平移对称性的静电势}{25}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}单一Landau能级的电导}{26}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}边界态}{27}{subsection.3.2.1}
@@ -38,7 +38,7 @@
 \contentsline {subsection}{\numberline {3.3.2}六端法测量}{29}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}整数量子Hall效应和过滤沥滤法}{30}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}光学测量中的延展/局域体态}{32}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}平台期的转移与标度变换律}{33}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}平台期的转移与标度变换律}{32}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}石墨烯中的相对论性Hall效应}{34}{section.3.5}
 \contentsline {chapter}{\numberline {4}强关联与分数量子Hall效应}{39}{chapter.4}
 \contentsline {section}{\numberline {4.1}库伦相互作用的效应}{39}{section.4.1}
